@@ -9,6 +9,8 @@ public class Rege extends Piesa {
     @Override
     public boolean canMove(Board board, Position start, Position end)
     {
+        if(end.getPiesa().getClass().toString() == "PozitieGoala")
+            return false;
         if(end.getPiesa().isWhite() == this.isWhite())
         {
             return false;
@@ -17,5 +19,11 @@ public class Rege extends Piesa {
         int x = Math.abs(end.getX() - start.getX());
         int y = Math.abs(end.getY() - start.getY());
         return x + y == 1 || x + y == 2;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "Rege";
     }
 }

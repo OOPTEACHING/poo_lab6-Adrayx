@@ -47,7 +47,7 @@ public class Board {
         for(int i = 2; i < 6; i++)
             for(int j = 0; j < 8; j++)
             {
-                tabla[i][j] = new Position(i, j, null);
+                tabla[i][j] = new Position(i, j, new PozitieGoala());
             }
     }
 

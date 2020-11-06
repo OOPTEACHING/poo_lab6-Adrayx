@@ -8,7 +8,7 @@ public class Game {
         if(start.getPiesa().canMove(board, start, end)) {
             if(end.getPiesa().getClass().toString().contentEquals("Rege"))
                 return true;
-            System.out.print(start.getPiesa() + " moved to " + end.getX() + " " + end.getY());
+            System.out.print(start.getPiesa().toString() + " moved to " + end.getX() + " " + end.getY());
             board.tabla[end.getX()][end.getY()].setPiesa(start.getPiesa());
         }
         else
@@ -16,9 +16,17 @@ public class Game {
         return false;
     }
 
-    public static boolean playerMove(Board board,int x, int y, int endX, int endY)
+    public static boolean playerMove(Board board, int x, int y, int endX, int endY)
     {
-        return move(board, board.tabla[x][y], board.tabla[endX][endY]);
+        if(x > 8 || y > 8 || x <= 0 || y <= 0) {
+            System.out.println("Impossible move!");
+            return false;
+        }
+        if(endX > 8 || endY > 8 || endX <= 0 || endY <= 0) {
+            System.out.println("Impossible move!");
+            return false;
+        }
+        return move(board, board.tabla[x - 1][y - 1], board.tabla[endX - 1][endY - 1]);
     }
 
     public static void main(String[] args) {

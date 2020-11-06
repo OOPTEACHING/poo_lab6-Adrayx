@@ -9,11 +9,7 @@ public class Pion extends Piesa {
     @Override
     public boolean canMove(Board board, Position start, Position end)
     {
-        if(end.getPiesa().isWhite() == this.isWhite())
-        {
-            return false;
-        }
-        if(Math.abs(end.getX() - start.getX()) == 1 && start.getY() == end.getY() && end.getPiesa() == null)
+        if(Math.abs(end.getX() - start.getX()) == 1 && start.getY() == end.getY() && end.getPiesa().toString() == "PozitieGoala")
         {
             return true;
         }
@@ -23,5 +19,11 @@ public class Pion extends Piesa {
         }
         else
             return false;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "Pion";
     }
 }

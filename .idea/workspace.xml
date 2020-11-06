@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6da6293-6400-4ab1-8992-cb7fab710b9f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sah/PozitieGoala.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sah/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sah/Cal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Cal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sah/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sah/Nebun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Nebun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sah/Pion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Pion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sah/Rege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Rege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sah/Regina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Regina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sah/Tura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Tura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +68,7 @@
       <recent name="D:\Faculta\An_2\OOP\poo_lab6-Adrayx\src\ghiozdan" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Greier">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Greier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="insecte.Greier" />
       <module name="POO_Lab6" />
@@ -113,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Greier" />
         <item itemvalue="Application.Regina" />
       </list>
@@ -131,7 +139,11 @@
       <updated>1604419758795</updated>
       <workItem from="1604419764890" duration="6000" />
       <workItem from="1604646445650" duration="2786000" />
-      <workItem from="1604681170994" duration="8916000" />
+      <workItem from="1604681170994" duration="8952000" />
+      <workItem from="1604690313365" duration="1047000" />
+      <workItem from="1604692408539" duration="361000" />
+      <workItem from="1604694454041" duration="825000" />
+      <workItem from="1604697181974" duration="5342000" />
     </task>
     <servers />
   </component>
@@ -155,22 +167,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604684901776" />
-    <state width="1873" height="272" key="GridCell.Tab.0.bottom" timestamp="1604683194343">
+    <state width="1873" height="272" key="GridCell.Tab.0.bottom" timestamp="1604704407316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1873" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604683194343" />
-    <state width="1873" height="272" key="GridCell.Tab.0.center" timestamp="1604683194343">
+    <state width="1873" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604704407316" />
+    <state width="1873" height="272" key="GridCell.Tab.0.center" timestamp="1604704407316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1873" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604683194343" />
-    <state width="1873" height="272" key="GridCell.Tab.0.left" timestamp="1604683194343">
+    <state width="1873" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604704407316" />
+    <state width="1873" height="272" key="GridCell.Tab.0.left" timestamp="1604704407316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1873" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604683194343" />
-    <state width="1873" height="272" key="GridCell.Tab.0.right" timestamp="1604683194343">
+    <state width="1873" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604704407316" />
+    <state width="1873" height="272" key="GridCell.Tab.0.right" timestamp="1604704407316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1873" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604683194343" />
+    <state width="1873" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604704407316" />
+    <state width="1873" height="336" key="GridCell.Tab.1.bottom" timestamp="1604702549159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1873" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604702549159" />
+    <state width="1873" height="336" key="GridCell.Tab.1.center" timestamp="1604702549159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1873" height="336" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604702549159" />
+    <state width="1873" height="336" key="GridCell.Tab.1.left" timestamp="1604702549159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1873" height="336" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604702549159" />
+    <state width="1873" height="336" key="GridCell.Tab.1.right" timestamp="1604702549159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1873" height="336" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604702549159" />
     <state x="210" y="277" key="extract.method.dialog" timestamp="1604686004402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

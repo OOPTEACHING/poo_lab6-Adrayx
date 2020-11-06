@@ -9,6 +9,8 @@ public class Cal extends Piesa {
     @Override
     public boolean canMove(Board board, Position start, Position end)
     {
+        if(end.getPiesa() == null)
+            return false;
         if(end.getPiesa().isWhite() == this.isWhite())
         {
             return false;
