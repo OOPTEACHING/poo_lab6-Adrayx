@@ -20,18 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6da6293-6400-4ab1-8992-cb7fab710b9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Cal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Nebun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Piesa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Pion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Rege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Regina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Tura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sah/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sah/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +131,7 @@
       <updated>1604419758795</updated>
       <workItem from="1604419764890" duration="6000" />
       <workItem from="1604646445650" duration="2786000" />
-      <workItem from="1604681170994" duration="5928000" />
+      <workItem from="1604681170994" duration="8916000" />
     </task>
     <servers />
   </component>

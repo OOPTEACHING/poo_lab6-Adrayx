@@ -43,6 +43,12 @@ public class Board {
         tabla[6][5] = new Position(6, 5, new Pion(true));
         tabla[6][6] = new Position(6, 6, new Pion(true));
         tabla[6][7] = new Position(6, 7, new Pion(true));
+
+        for(int i = 2; i < 6; i++)
+            for(int j = 0; j < 8; j++)
+            {
+                tabla[i][j] = new Position(i, j, null);
+            }
     }
 
 
