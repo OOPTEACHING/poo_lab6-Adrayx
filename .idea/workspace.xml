@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6da6293-6400-4ab1-8992-cb7fab710b9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ghiozdan/Caiet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ghiozdan/Ghiozdan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ghiozdan/Manual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ghiozdan/Rechizita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ghiozdan/TestGhiozdan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/insecte/Albina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/insecte/Gindac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/insecte/Insecta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/insecte/Greier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/insecte/Regina.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insecte/Albina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insecte/Albina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +61,20 @@
       <recent name="D:\Faculta\An_2\OOP\poo_lab6-Adrayx\src\ghiozdan" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Greier">
+    <configuration name="Greier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="insecte.Greier" />
+      <module name="POO_Lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="insecte.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="POO_Lab6" />
@@ -77,17 +85,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="Regina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="insecte.Regina" />
+      <module name="POO_Lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="insecte.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Greier" />
+        <item itemvalue="Application.Regina" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -101,7 +130,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604419758795</updated>
       <workItem from="1604419764890" duration="6000" />
-      <workItem from="1604646445650" duration="2743000" />
+      <workItem from="1604646445650" duration="2786000" />
+      <workItem from="1604681170994" duration="1160000" />
     </task>
     <servers />
   </component>
@@ -118,5 +148,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1873" height="272" key="GridCell.Tab.0.bottom" timestamp="1604682333563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1873" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604682333563" />
+    <state width="1873" height="272" key="GridCell.Tab.0.center" timestamp="1604682333563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1873" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604682333563" />
+    <state width="1873" height="272" key="GridCell.Tab.0.left" timestamp="1604682333562">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1873" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604682333562" />
+    <state width="1873" height="272" key="GridCell.Tab.0.right" timestamp="1604682333563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1873" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604682333563" />
   </component>
 </project>
