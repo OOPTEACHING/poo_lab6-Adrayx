@@ -9,7 +9,7 @@ public class Nebun extends Piesa {
     @Override
     public boolean canMove(Board board, Position start, Position end)
     {
-        if(end.getPiesa().getClass().toString() == "PozitieGoala")
+        if(end.getPiesa().isWhite() == start.getPiesa().isWhite() && end.getPiesa().toString() != "PozitieGoala")
             return false;
         int x = Math.abs(end.getX() - start.getX());
         int y = Math.abs(end.getY() - start.getY());
@@ -24,6 +24,6 @@ public class Nebun extends Piesa {
     @Override
     public String toString()
     {
-        return "Regina";
+        return "Nebun";
     }
 }

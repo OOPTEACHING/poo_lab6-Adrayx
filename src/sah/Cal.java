@@ -9,16 +9,18 @@ public class Cal extends Piesa {
     @Override
     public boolean canMove(Board board, Position start, Position end)
     {
-        if(end.getPiesa() == null)
+        if(end.getPiesa().isWhite() == start.getPiesa().isWhite() && end.getPiesa().toString() != "PozitieGoala")
             return false;
-        if(end.getPiesa().isWhite() == this.isWhite())
-        {
-            return false;
-        }
 
         int x = Math.abs(end.getX() - start.getX());
-        int y = Math.abs(end.getX() - start.getX());
+        int y = Math.abs(end.getY() - start.getY());
 
         return x * y == 2;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "Cal";
     }
 }

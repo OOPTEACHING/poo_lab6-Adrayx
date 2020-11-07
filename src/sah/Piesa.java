@@ -32,7 +32,7 @@ public abstract class Piesa {
         }
         for (int i = initialX - 1; i < finalX; i++) {
             for (int j = initialY - 1; j < finalY; j++)
-                if (board.tabla[i][j].getPiesa() != null)
+                if (board.tabla[i][j].getPiesa().toString() != "PozitieGoala")
                     return false;
         }
         return true;

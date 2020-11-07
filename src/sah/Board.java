@@ -51,5 +51,35 @@ public class Board {
             }
     }
 
+    public void listBoard()
+    {
+        for(int i = 0; i < 8; i++)
+            for(int j = 0; j < 8; j++)
+            {
+                if(tabla[i][j].getPiesa().toString() != "PozitieGoala")
+                    System.out.println(tabla[i][j].getPiesa().toString() + " " + (tabla[i][j].getPiesa().isWhite() ? "alb/a " : "negru/a ") + i + " " + j);
+            }
+    }
 
+    public int checkKings()
+    {
+        boolean blackKing = false;
+        boolean whiteKing = false;
+        for(int i = 0; i < 8; i++)
+            for(int j = 0; j < 8; j++)
+            {
+                if(tabla[i][j].getPiesa().toString() == "Rege")
+                    if(tabla[i][j].getPiesa().isWhite())
+                        whiteKing = true;
+                    else
+                        blackKing = true;
+            }
+        if(whiteKing && blackKing)
+            return 0;
+        else
+            if(whiteKing)
+                return 1;
+            else
+                return 2;
+    }
 }

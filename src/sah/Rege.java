@@ -9,7 +9,7 @@ public class Rege extends Piesa {
     @Override
     public boolean canMove(Board board, Position start, Position end)
     {
-        if(end.getPiesa().getClass().toString() == "PozitieGoala")
+        if(end.getPiesa().isWhite() == start.getPiesa().isWhite() && end.getPiesa().toString() != "PozitieGoala")
             return false;
         if(end.getPiesa().isWhite() == this.isWhite())
         {

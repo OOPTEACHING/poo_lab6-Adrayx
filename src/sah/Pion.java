@@ -13,7 +13,7 @@ public class Pion extends Piesa {
         {
             return true;
         }
-        else if(Math.abs(end.getX() - start.getX()) == 1 && Math.abs(end.getY() - start.getY()) == 1 && end.getPiesa().isWhite() != this.isWhite())
+        else if(Math.abs(end.getX() - start.getX()) == 1 && Math.abs(end.getY() - start.getY()) == 1 && (end.getPiesa().isWhite() != this.isWhite() || end.getPiesa().toString() == "PozitieGoala"))
         {
             return true;
         }
