@@ -6,7 +6,7 @@ public class Game {
     public static boolean move(Board board, Position start, Position end)
     {
         if(start.getPiesa().canMove(board, start, end)) {
-            if(end.getPiesa().getClass().toString().contentEquals("Rege"))
+            if(end.getPiesa().toString().contentEquals("Rege"))
                 return true;
             System.out.print(start.getPiesa().toString() + " moved to " + end.getX() + " " + end.getY());
             board.tabla[end.getX()][end.getY()].setPiesa(start.getPiesa());
